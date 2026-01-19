@@ -5,122 +5,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Privacy Policy - Plant Journal</title>
     <style>
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
-
-        body {
-            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
-            line-height: 1.6;
-            color: #2d2d2d;
-            background: linear-gradient(135deg, #e8f5e9 0%, #f1f8e9 100%);
-        }
-
-        nav {
-            background: rgba(255, 255, 255, 0.95);
-            backdrop-filter: blur(10px);
-            padding: 1rem 2rem;
-            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
-            position: sticky;
-            top: 0;
-            z-index: 100;
-        }
-
-        nav ul {
-            list-style: none;
-            display: flex;
-            gap: 2rem;
-            justify-content: center;
-            align-items: center;
-        }
-
-        nav a {
-            text-decoration: none;
-            color: #2d2d2d;
-            font-weight: 500;
-            transition: color 0.3s;
-        }
-
-        nav a:hover {
-            color: #558b2f;
-        }
-
-        .logo {
-            font-size: 1.5rem;
-            font-weight: 700;
-            color: #558b2f;
-            display: flex;
-            align-items: center;
-            gap: 0.5rem;
-        }
-
-        .container {
-            max-width: 1200px;
-            margin: 0 auto;
-            padding: 2rem;
-        }
-
-        .legal-content {
-            background: white;
-            padding: 3rem;
-            border-radius: 20px;
-            margin: 2rem 0;
-            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
-            max-width: 900px;
-            margin-left: auto;
-            margin-right: auto;
-        }
-
-        .legal-content h1 {
-            color: #558b2f;
-            margin-bottom: 1rem;
-            font-size: 2.5rem;
-        }
-
-        .legal-content h2 {
-            color: #558b2f;
-            margin-top: 2rem;
-            margin-bottom: 1rem;
-            font-size: 1.8rem;
-        }
-
-        .legal-content p, .legal-content li {
-            margin-bottom: 1rem;
-            line-height: 1.8;
-            color: #444;
-        }
-
-        .legal-content ul {
-            margin-left: 2rem;
-            margin-bottom: 1.5rem;
-        }
-
-        .last-updated {
-            color: #888;
-            font-style: italic;
-            margin-bottom: 2rem;
-        }
-
-        footer {
-            background: white;
-            padding: 2rem;
-            text-align: center;
-            margin-top: 4rem;
-            box-shadow: 0 -2px 10px rgba(0, 0, 0, 0.05);
-        }
-
-        @media (max-width: 768px) {
-            nav ul {
-                flex-direction: column;
-                gap: 1rem;
-            }
-            
-            .legal-content {
-                padding: 2rem 1.5rem;
-            }
-        }
+        /* Shared Styles */
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif; line-height: 1.6; color: #2d2d2d; background: linear-gradient(135deg, #e8f5e9 0%, #f1f8e9 100%); }
+        nav { background: rgba(255, 255, 255, 0.95); backdrop-filter: blur(10px); padding: 1rem 2rem; box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05); position: sticky; top: 0; z-index: 100; }
+        nav ul { list-style: none; display: flex; gap: 2rem; justify-content: center; align-items: center; }
+        nav a { text-decoration: none; color: #2d2d2d; font-weight: 500; }
+        .logo { font-size: 1.5rem; font-weight: 700; color: #558b2f; display: flex; align-items: center; gap: 0.5rem; }
+        .container { max-width: 1200px; margin: 0 auto; padding: 2rem; }
+        .legal-content { background: white; padding: 3rem; border-radius: 20px; margin: 2rem 0; box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08); max-width: 900px; margin-left: auto; margin-right: auto; }
+        .legal-content h1, .legal-content h2 { color: #558b2f; margin-bottom: 1rem; }
+        .legal-content p, .legal-content li { margin-bottom: 1rem; color: #444; }
+        .last-updated { color: #888; font-style: italic; margin-bottom: 2rem; }
+        footer { background: white; padding: 2rem; text-align: center; }
     </style>
 </head>
 <body>
@@ -136,88 +33,31 @@
     <div class="container">
         <div class="legal-content">
             <h1>Privacy Policy</h1>
-            <p class="last-updated">Last Updated: December 23, 2025</p>
+            <p class="last-updated">Last Updated: January 19, 2026</p>
 
-            <p>Wet Your Plants ("we," "our," or "us") operates the Wet Your Plants: Plant Journal mobile application. This Privacy Policy explains how we handle your information when you use our app.</p>
+            <h2>1. No User Accounts</h2>
+            <p>Plant Journal does not require or support user accounts. All plant data, journal entries, and photos are stored locally on your device. We have no access to your personal data.</p>
 
-            <h2>Summary</h2>
-            <p>Plant Journal stores your data locally on your device. Photos are only sent to third-party AI services when you explicitly use plant identification or diagnosis. We do not collect or store personal data on our servers.</p>
+            <h2>2. Data Processing for AI</h2>
+            <p>When using Premium AI features, the photo you select is sent to the Google Gemini API for processing. We do not store these photos on our servers. This data is handled according to Google's Privacy Policy.</p>
 
-            <h2>Information Collection and Use</h2>
-            <p>Plant Journal is designed with privacy as a priority. We do not collect, store, or transmit any personal information to our servers.</p>
+            <h2>3. Subscription Analytics</h2>
+            <p>We use **RevenueCat** to manage subscriptions. RevenueCat collects anonymized transaction data (such as whether a subscription is active) to help us manage Premium features. No personally identifiable information (PII) is linked to this data by us.</p>
 
-            <h2>Data Storage</h2>
-            <p><strong>Local Storage Only:</strong> All of your plant data, photos, notes, and settings are stored locally on your device. We do not have access to this information, and it is never transmitted to our servers or any third-party servers.</p>
-
-            <h2>Camera and Photo Library Access</h2>
-            <p>Plant Journal requires access to your device's camera and photo library to function properly:</p>
+            <h2>4. Third-Party Services</h2>
             <ul>
-                <li><strong>Camera Access:</strong> Used to take photos of your plants for growth tracking and identification</li>
-                <li><strong>Photo Library Access:</strong> Used to select existing photos from your device for plant identification, diagnosis, and adding to your plant journal</li>
-                <li>Photos you capture or select are stored locally on your device and are never uploaded to our servers</li>
+                <li><strong>RevenueCat:</strong> Subscription management and analytics.</li>
+                <li><strong>Google Gemini API:</strong> AI plant identification.</li>
+                <li><strong>Apple App Store:</strong> Payment processing.</li>
             </ul>
 
-            <h2>Notification Permissions</h2>
-            <p>Plant Journal requests notification permissions to send you reminders about your plant care tasks (watering, misting, fertilizing, and taking photos). These notifications are generated locally on your device based on the schedules you set. No notification data is collected or transmitted.</p>
-
-            <h2>AI Plant Identification or Diagnosis</h2>
-            <p>When you use the AI plant identification or diagnosis feature (Premium feature):</p>
-            <ul>
-                <li>Photos are sent to Google Gemini API for processing, plant identification, and diagnosis</li>
-                <li>We do not store these photos on our servers</li>
-                <li>Google's use of this data is governed by their privacy policy</li>
-                <li>The identification results are displayed to you but not stored by us</li>
-                <li>You can learn more about Google's privacy practices at: <a href="https://policies.google.com/privacy" style="color: #558b2f;">https://policies.google.com/privacy</a></li>
-            </ul>
-
-            <h2>In-App Purchases</h2>
-            <p>Plant Journal offers a Premium subscription through Apple App Store and Google Play Store:</p>
-            <ul>
-                <li>All payment processing is handled directly by Apple or Google</li>
-                <li>We do not collect or store your payment information</li>
-                <li>Your subscription information is managed through your Apple ID or Google Play account</li>
-                <li>Apple and Google's privacy policies govern how they handle your payment data</li>
-            </ul>
-
-            <h2>Data Security</h2>
-            <p>Since all your data is stored locally on your device, your data security depends on your device's security measures. We recommend:</p>
-            <ul>
-                <li>Keeping your device's operating system up to date</li>
-                <li>Using device encryption and passcode protection</li>
-                <li>Backing up your device regularly to prevent data loss</li>
-            </ul>
-
-            <h2>Data Deletion</h2>
-            <p>You have complete control over your data:</p>
-            <ul>
-                <li>You can delete individual plants, photos, or notes at any time within the app</li>
-                <li>Uninstalling the app will remove all locally stored data from your device</li>
-                <li>We do not retain any data after you delete the app</li>
-            </ul>
-
-            <h2>Children's Privacy</h2>
-            <p>Plant Journal does not knowingly collect any information from anyone, including children. Since all data is stored locally on the device, we have no access to user information regardless of age.</p>
-
-            <h2>Changes to This Privacy Policy</h2>
-            <p>We may update this Privacy Policy from time to time. We will notify you of any changes by posting the new Privacy Policy on this page and updating the "Last Updated" date.</p>
-
-            <h2>Third-Party Services</h2>
-            <p>Plant Journal uses the following third-party services:</p>
-            <ul>
-                <li><strong>Google Gemini API:</strong> For AI plant identification & Diagnosis (Premium feature only). Subject to Google's Privacy Policy.</li>
-                <li><strong>Apple App Store:</strong> For in-app purchases on iOS. Subject to Apple's Privacy Policy.</li>
-                <li><strong>Google Play Store:</strong> For in-app purchases on Android. Subject to Google's Privacy Policy.</li>
-            </ul>
-
-            <h2>Contact Us</h2>
-            <p>If you have any questions about this Privacy Policy, please contact us at:</p>
-            <p><strong>Email:</strong> <a href="mailto:wetyourplants74@gmail.com" style="color: #558b2f;">wetyourplants74@gmail.com</a></p>
+            <h2>5. Contact Us</h2>
+            <p><strong>Email:</strong> <a href="mailto:wetyourplants74@gmail.com">wetyourplants74@gmail.com</a></p>
         </div>
     </div>
 
     <footer>
-        <p>&copy; 2025 Wet Your Plants - Plant Journal. All rights reserved.</p>
-        <p><a href="mailto:wetyourplants74@gmail.com" style="color: #558b2f;">wetyourplants74@gmail.com</a></p>
+        <p>&copy; 2026 Wet Your Plants - Plant Journal. All rights reserved.</p>
     </footer>
 </body>
 </html>
